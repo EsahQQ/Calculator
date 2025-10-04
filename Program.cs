@@ -6,26 +6,21 @@ class Program
         while (true)
         {
             var num1 = Calculator.GetNumber("Enter a number: ");
-            Console.WriteLine("\t1. +");
-            Console.WriteLine("\t2. -");
-            Console.WriteLine("\t3. *");
-            Console.WriteLine("\t4. /");
-            Console.Write("Choose operation: ");
-            var operation = Convert.ToInt32(Console.ReadLine());
+            var operation = Calculator.GetOperation();
             var num2 = Calculator.GetNumber("Enter another number: ");
             double? result;
             switch (operation)
             {
-                case 1:
+                case "+":
                     result = num1 + num2;
                     break;
-                case 2:
+                case "-":
                     result = num1 - num2;
                     break;
-                case 3:
+                case "*":
                     result = num1 * num2;
                     break;
-                case 4:
+                case "/":
                     result = num1 / num2;
                     break;
                 default:

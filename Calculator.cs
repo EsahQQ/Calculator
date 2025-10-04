@@ -7,13 +7,28 @@ public static class Calculator
         while (true)
         {
             Console.Write(prompt);
-            if (!double.TryParse(Console.ReadLine(), out var number))
-            {
-                Console.WriteLine("Invalid input, please try again\n");
-                continue;
-            }
+            if (double.TryParse(Console.ReadLine(), out var number)) 
+                return number;
             
-            return number;
+            Console.WriteLine("Invalid input, please try again\n");
+        }
+    }
+    
+    public static string GetOperation()
+    {
+        while (true)
+        {
+            string? operation;
+
+            while (true)
+            {
+                Console.Write("Choose operation (+, -, /, *): ");
+                operation = Console.ReadLine();
+                if (operation is "+" or "-" or "/" or "*") 
+                    return operation;
+                
+                Console.WriteLine("Invalid input, please try again\n");
+            }
         }
     }
 }
