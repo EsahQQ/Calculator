@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61cefe7d-dbe7-4151-9211-c293912736b1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Calculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="61cefe7d-dbe7-4151-9211-c293912736b1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +19,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/EsahQQ/Calculator",
+    "accountId": "7077c7f1-66c5-462a-bb65-b2eb370e796d"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://D:/innowise/task1/Calculator/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -84,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1759500206451</updated>
       <workItem from="1759500207786" duration="1005000" />
-      <workItem from="1759603295469" duration="3240000" />
+      <workItem from="1759603295469" duration="3537000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -134,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759606433542</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update: fix in GetOperation; rework division by 0">
+      <option name="closed" value="true" />
+      <created>1759606876293</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759606876293</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +161,8 @@
     <MESSAGE value="Add: GetOperation method in Calculator.cs" />
     <MESSAGE value="Add: question in the end" />
     <MESSAGE value="Add: handling division by 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: handling division by 0" />
+    <MESSAGE value="Update: fix in GetOperation; rework division by 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: fix in GetOperation; rework division by 0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
