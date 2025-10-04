@@ -5,17 +5,15 @@ class Program
     {
         while (true)
         {
-            Console.Write("Enter a number: ");
-            var num1 = Convert.ToInt32(Console.ReadLine());
+            var num1 = Calculator.GetNumber("Enter a number: ");
             Console.WriteLine("\t1. +");
             Console.WriteLine("\t2. -");
             Console.WriteLine("\t3. *");
             Console.WriteLine("\t4. /");
             Console.Write("Choose operation: ");
             var operation = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Enter another number: ");
-            var num2 = Convert.ToInt32(Console.ReadLine());
-            int? result;
+            var num2 = Calculator.GetNumber("Enter another number: ");
+            double? result;
             switch (operation)
             {
                 case 1:
