@@ -8,35 +8,21 @@ class Program
             var num1 = Calculator.GetNumber("Enter a number: ");
             var operation = Calculator.GetOperation();
             var num2 = Calculator.GetNumber("Enter another number: ");
-            double? result;
-            switch (operation)
+            var result = operation switch
             {
-                case "+":
-                    result = num1 + num2;
-                    break;
-                case "-":
-                    result = num1 - num2;
-                    break;
-                case "*":
-                    result = num1 * num2;
-                    break;
-                case "/":
-                    result = num1 / num2;
-                    break;
-                default:
-                    result = null;
-                    Console.WriteLine("Invalid input");
-                    break;
-            }
-            if (result == null)
-                continue;
-    
-            Console.WriteLine($"Result: {result}");
-            Console.WriteLine("One more? (1 - yes / 0 - no)");
-            var answer = Convert.ToInt32(Console.ReadLine());
-        }
+                "+" => num1 + num2,
+                "-" => num1 - num2,
+                "*" => num1 * num2,
+                "/" => num1 / num2,
+                _ => 0
+            };
 
-        return;
+            Console.WriteLine($"Result: {result}");
+            Console.WriteLine("One more? (yes / no)");
+            var answer = Console.ReadLine();
+            if (answer != "yes" && answer != "y")
+                return;
+        }
     }
 }
 
