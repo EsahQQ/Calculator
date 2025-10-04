@@ -18,17 +18,12 @@ public static class Calculator
     {
         while (true)
         {
-            string? operation;
-
-            while (true)
-            {
-                Console.Write("Choose operation (+, -, /, *): ");
-                operation = Console.ReadLine();
-                if (operation is "+" or "-" or "/" or "*") 
-                    return operation;
+            Console.Write("Choose operation (+, -, /, *): ");
+            var operation = Console.ReadLine();
+            if (operation is "+" or "-" or "/" or "*") 
+                return operation;
                 
-                Console.WriteLine("Invalid input, please try again\n");
-            }
+            Console.WriteLine("Invalid input, please try again\n");
         }
     }
 }

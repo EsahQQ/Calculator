@@ -8,6 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61cefe7d-dbe7-4151-9211-c293912736b1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Calculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/innowise/task1/Calculator/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -80,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1759500206451</updated>
       <workItem from="1759500207786" duration="1005000" />
-      <workItem from="1759603295469" duration="2902000" />
+      <workItem from="1759603295469" duration="3240000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -122,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759605562916</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add: handling division by 0">
+      <option name="closed" value="true" />
+      <created>1759606433542</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1759606433542</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +149,8 @@
     <MESSAGE value="Add: Calculator class with GetNumber method" />
     <MESSAGE value="Add: GetOperation method in Calculator.cs" />
     <MESSAGE value="Add: question in the end" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: question in the end" />
+    <MESSAGE value="Add: handling division by 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: handling division by 0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

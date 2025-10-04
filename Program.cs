@@ -8,7 +8,7 @@ class Program
             var num1 = Calculator.GetNumber("Enter a number: ");
             var operation = Calculator.GetOperation();
             var num2 = Calculator.GetNumber("Enter another number: ");
-            double result = 0;
+            double? result = null;
             switch (operation)
             {
                 case "+":
@@ -24,15 +24,16 @@ class Program
                     if (num2 == 0)
                     {
                         Console.WriteLine("Divide by zero");
-                        continue;
+                        break;
                     }
                     result = num1 / num2;
                     break;
             }
-
-            Console.WriteLine($"Result: {result}");
+            if (result != null)
+                Console.WriteLine($"Result: {result}");
+            
             Console.WriteLine("One more? (yes / no)");
-            var answer = Console.ReadLine();
+            var answer = Console.ReadLine()?.ToLower();
             if (answer != "yes" && answer != "y")
                 return;
         }
